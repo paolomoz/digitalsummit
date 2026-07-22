@@ -75,10 +75,22 @@ export default async function decorate(block) {
     caption.className = 'visually-hidden';
     caption.textContent = `${day.label} agenda`;
     table.append(caption);
+    const thead = document.createElement('thead');
+    const headRow = document.createElement('tr');
+    ['Time', 'Session', 'Category'].forEach((label) => {
+      const th = document.createElement('th');
+      th.scope = 'col';
+      th.textContent = label;
+      headRow.append(th);
+    });
+    thead.append(headRow);
+    table.append(thead);
     const tbody = document.createElement('tbody');
     day.sessions.forEach((s) => {
       const tr = document.createElement('tr');
       tr.dataset.kind = s.isBreak ? 'break' : 'session';
+      const tdTime = document.createElement('td');
+      tdTime.className = 'session-time';
       const td = document.createElement('td');
       const title = document.createElement('p');
       title.className = 'session-title';
@@ -93,7 +105,9 @@ export default async function decorate(block) {
         });
         td.append(sp);
       }
-      tr.append(td);
+      const tdCat = document.createElement('td');
+      tdCat.className = 'session-category';
+      tr.append(tdTime, td, tdCat);
       tbody.append(tr);
     });
     table.append(tbody);
