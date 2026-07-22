@@ -1,0 +1,97 @@
+/* speakers — canon speaker surfaces */
+
+.speakers .section-head h2 { color: var(--ds-indigo); }
+
+.speakers .speaker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: var(--spacing-xl) var(--spacing-lg);
+}
+
+.speakers .speaker-card { text-align: center; }
+
+.speakers .speaker-rail {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 180px;
+  gap: var(--spacing-lg);
+  overflow-x: auto;
+  padding-bottom: var(--spacing-md);
+  scroll-snap-type: x mandatory;
+}
+
+.speakers .speaker-rail .speaker-card { scroll-snap-align: start; }
+
+.speakers .speaker-card .ds-avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--ds-hairline);
+  margin: 0 auto;
+}
+
+.speakers .speaker-card .speaker-name {
+  display: block;
+  margin-top: var(--spacing-md);
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--ds-cyan-text);
+  text-decoration: none;
+}
+
+.speakers .speaker-card .speaker-name:hover { text-decoration: underline; }
+
+.speakers .speaker-card .speaker-meta {
+  margin: 4px 0 0;
+  color: var(--ds-gray);
+  font-size: 0.9375rem;
+}
+
+.speakers .filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-xl);
+}
+
+.speakers .filter-bar input[type="search"] {
+  flex: 1 1 280px;
+  background: #fff;
+  border: 1px solid var(--ds-hairline);
+  border-radius: var(--radius-pill);
+  padding: 12px 20px;
+  font-family: var(--body-font-family);
+  font-size: 1rem;
+  color: #000;
+}
+
+.speakers .filter-bar input[type="search"]:focus-visible { border-color: var(--ds-cyan-text); }
+
+@media (width <= 640px) {
+  .speakers .speaker-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+
+  .speakers .speaker-card .ds-avatar {
+  width: 108px;
+  height: 108px;
+}
+}
+
+.speakers .speaker-card span.ds-avatar {
+  display: block;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: var(--ds-hairline);
+  margin: 0 auto;
+}
+
+@media (width <= 640px) {
+  .speakers .speaker-card span.ds-avatar {
+  width: 108px;
+  height: 108px;
+}
+}
+
+.speakers.pastel { background: var(--gradient-band-pastel); }

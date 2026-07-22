@@ -1,27 +1,18 @@
-.cards > ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+/* cards — canon card grids (tracks variant) */
+
+.cards .section-head h2 { color: var(--ds-indigo); }
+
+.cards .section-head > p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  max-width: 70ch;
+}
+
+.cards .tracks-grid,
+.cards .cards-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--spacing-lg);
 }
 
-.cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
-}
-
-.cards .cards-card-body {
-  margin: 16px;
-}
-
-.cards .cards-card-image {
-  line-height: 0;
-}
-
-.cards > ul > li img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-}
+.cards .ds-card h3 { margin: 0; }

@@ -1,0 +1,45 @@
+/* logo-wall — partner tiles / attendee strip */
+
+.logo-wall-block-scope { display: none; }
+
+.logo-wall .section-head h2 { color: var(--ds-indigo); }
+
+.logo-wall .logo-wall {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.logo-wall .logo-tile {
+  background: #fff;
+  border: 1px solid var(--ds-hairline);
+  border-radius: var(--radius);
+  padding: var(--spacing-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 96px;
+}
+
+.logo-wall .logo-tile img {
+  max-height: 64px;
+  width: auto;
+  object-fit: contain;
+}
+
+.logo-wall .logo-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-lg);
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-wall .logo-strip img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (width <= 390px) {
+  .logo-wall .logo-wall { grid-template-columns: repeat(2, 1fr); }
+}

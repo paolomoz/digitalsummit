@@ -1,0 +1,59 @@
+/* event-cards — hub roster (timetable discipline) */
+
+.event-cards .section-head h2 { color: var(--ds-indigo); }
+
+.event-cards .section-head .t-lede,
+.event-cards .section-head > p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  max-width: 70ch;
+}
+
+.event-cards .event-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.event-cards .event-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0;
+}
+
+.event-cards .event-card img {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+}
+
+.event-cards .event-card-body {
+  padding: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  flex: 1;
+}
+
+.event-cards .event-card-body h3 {
+  font-size: clamp(1.5625rem, 3vw, 2rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.event-cards .event-card-body p { margin: 0; }
+
+.event-cards .event-card .event-dates {
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+  color: var(--ds-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.875rem;
+}
+
+.event-cards .event-card .cta-row { margin-top: auto; }
+
+.event-cards > .container > .cta-row { margin-top: var(--spacing-lg); }

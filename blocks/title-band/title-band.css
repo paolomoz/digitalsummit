@@ -1,0 +1,42 @@
+/* title-band — canon event-title-band (timetable headline over gradient) */
+
+.title-band {
+  background: var(--gradient-band-indigo-cyan);
+  color: #fff;
+  position: relative;
+  isolation: isolate;
+}
+
+.title-band.purple-magenta { background: var(--gradient-band-purple-magenta); }
+
+.title-band.dark { background: var(--gradient-band-dark); }
+
+.title-band.photo,
+.title-band.has-photo {
+  background-size: cover;
+  background-position: center;
+}
+
+.title-band.has-photo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgb(14 4 119 / 78%), rgb(0 0 0 / 60%));
+  z-index: -1;
+}
+
+.title-band h1,
+.title-band h2,
+.title-band p {
+  color: #fff;
+}
+
+.title-band h1 { margin: 0; }
+
+.title-band .t-lede { margin: var(--spacing-md) 0 0; }
+
+.title-band p { margin-top: var(--spacing-md); }
+
+.title-band a:any-link { color: #fff; }
+
+.title-band .dates { font-variant-numeric: tabular-nums; }

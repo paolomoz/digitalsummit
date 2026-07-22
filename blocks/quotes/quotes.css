@@ -1,0 +1,33 @@
+/* quotes — canon testimonial band (photo ground, indigo scrim) */
+
+.quotes {
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  isolation: isolate;
+}
+
+.quotes::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgb(14 4 119 / 55%);
+  z-index: -1;
+}
+
+.quotes .quotes-grid {
+  display: grid;
+  gap: var(--spacing-xl);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.quotes blockquote {
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-size: clamp(1.25rem, 2.4vw, 1.5625rem);
+  line-height: 1.4;
+  max-width: 60ch;
+  color: #fff;
+}

@@ -50,15 +50,15 @@ async function loadFonts() {
 }
 
 /**
- * Turns `/widgets/...` links into widget blocks.
+ * Turns Google Maps embed links into map blocks (D1 auto-block).
  * @param {Element} main The container element
  */
-function buildWidgetAutoBlocks(main) {
-  const widgetLinks = [...main.querySelectorAll('a[href*="/widgets/"]')];
-  widgetLinks.forEach((link) => {
-    if (link.closest('.widget')) return;
+function buildMapAutoBlocks(main) {
+  const mapLinks = [...main.querySelectorAll('a[href*="google.com/maps/embed"]')];
+  mapLinks.forEach((link) => {
+    if (link.closest('.map')) return;
     const newLink = link.cloneNode(true);
-    const widgetBlock = buildBlock('widget', { elems: [newLink] });
+    const mapBlock = buildBlock('map', { elems: [newLink] });
     const p = link.closest('p');
     if (
       p
@@ -66,9 +66,9 @@ function buildWidgetAutoBlocks(main) {
       && p.querySelector('a') === link
       && p.textContent.trim() === link.textContent.trim()
     ) {
-      p.replaceWith(widgetBlock);
+      p.replaceWith(mapBlock);
     } else {
-      link.replaceWith(widgetBlock);
+      link.replaceWith(mapBlock);
     }
   });
 }
@@ -96,7 +96,7 @@ function buildAutoBlocks(main) {
         });
       });
     }
-    buildWidgetAutoBlocks(main);
+    buildMapAutoBlocks(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);

@@ -1,0 +1,56 @@
+/* pricing — canon rate cards + included checklist */
+
+.pricing .pricing-rates {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.pricing .pricing-rate .rate-amount {
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  color: var(--ds-indigo);
+  font-variant-numeric: tabular-nums;
+  margin: var(--spacing-sm) 0;
+}
+
+.pricing .pricing-included h2 {
+  font-size: clamp(1.5625rem, 3vw, 2rem);
+  color: var(--ds-indigo);
+}
+
+.pricing .timetable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pricing .timetable td {
+  text-align: left;
+  vertical-align: top;
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--ds-hairline);
+}
+
+.pricing .timetable td:first-child {
+  width: 32px;
+  padding-right: 0;
+}
+
+.pricing .timetable img.check {
+  width: 22px;
+  height: 20px;
+}
+
+.pricing .timetable .ds-badge { margin-left: var(--spacing-sm); }
+
+.pricing .fine-print {
+  font-size: 0.875rem;
+  color: var(--ds-gray);
+  margin-top: var(--spacing-md);
+}
+
+@media (width <= 640px) {
+  .pricing .timetable td { padding: var(--spacing-sm); }
+}

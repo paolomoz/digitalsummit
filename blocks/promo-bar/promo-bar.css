@@ -1,0 +1,21 @@
+/* promo-bar — canon promotion strip */
+
+.promo-bar {
+  background: var(--ds-indigo);
+  color: #fff;
+  text-align: center;
+  padding: 10px var(--spacing-md);
+  font-weight: 700;
+}
+
+.promo-bar p {
+  margin: 0 auto;
+  max-width: none;
+}
+
+.promo-bar a:any-link {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 800;
+}

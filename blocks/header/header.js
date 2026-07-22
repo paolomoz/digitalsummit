@@ -98,9 +98,7 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
 
   // enable menu collapse on escape keypress
   if (!expanded || isDesktop.matches) {
-    // collapse menu on escape press
     window.addEventListener('keydown', closeOnEscape);
-    // collapse menu on focus lost
     nav.addEventListener('focusout', closeOnFocusLost);
   } else {
     window.removeEventListener('keydown', closeOnEscape);
@@ -109,7 +107,13 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
 }
 
 /**
- * loads and decorates the header, mainly the nav
+ * header — Digital Summit canon chrome (template-slotted).
+ * /nav (and /nav-denver, /nav-raleigh via nav metadata) contract:
+ *   section 1 (brand): one link; link text = "Digital Summit" (hub) or the
+ *     city name (city variant, rendered as a text city-mark next to the logo).
+ *   section 2 (sections): one <ul>; top-level items with a nested <ul> become
+ *     dropdowns; a sibling <em> after a link renders as a date/meta tag.
+ *   section 3 (tools): the Register CTA authored as <strong><a> (primary pill).
  * @param {Element} block The header block element
  */
 export default async function decorate(block) {
@@ -122,6 +126,7 @@ export default async function decorate(block) {
   block.textContent = '';
   const nav = document.createElement('nav');
   nav.id = 'nav';
+  nav.setAttribute('aria-label', 'Main');
   while (fragment.firstElementChild) nav.append(fragment.firstElementChild);
 
   const classes = ['brand', 'sections', 'tools'];
@@ -130,15 +135,39 @@ export default async function decorate(block) {
     if (section) section.classList.add(`nav-${c}`);
   });
 
+  // brand: replace authored link text with the fixed brand logo (+ city mark)
   const navBrand = nav.querySelector('.nav-brand');
-  const brandLink = navBrand.querySelector('.button');
+  const brandLink = navBrand ? navBrand.querySelector('a') : null;
   if (brandLink) {
-    brandLink.className = '';
-    brandLink.closest('.button-container').className = '';
+    const label = brandLink.textContent.trim();
+    const isCity = label && label !== 'Digital Summit';
+    brandLink.className = 'brand';
+    brandLink.setAttribute('aria-label', isCity ? `Digital Summit ${label} home` : 'Digital Summit home');
+    brandLink.textContent = '';
+    const img = document.createElement('img');
+    img.src = '/img/logo.svg';
+    img.alt = 'Digital Summit';
+    img.width = 600;
+    img.height = 97;
+    brandLink.append(img);
+    if (isCity) {
+      const mark = document.createElement('span');
+      mark.className = 'city-mark';
+      mark.textContent = label;
+      brandLink.append(mark);
+    }
+    const wrapper = brandLink.closest('p');
+    if (wrapper) wrapper.replaceWith(brandLink);
   }
 
   const navSections = nav.querySelector('.nav-sections');
   if (navSections) {
+    // #98 — the pipeline wraps a list item's leading link in a <p>; unwrap
+    navSections.querySelectorAll('li > p').forEach((p) => {
+      if (p.children.length === 1 && p.firstElementChild.tagName === 'A' && p.textContent.trim() === p.firstElementChild.textContent.trim()) {
+        p.replaceWith(p.firstElementChild);
+      }
+    });
     navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
       if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
       navSection.addEventListener('click', () => {
@@ -155,7 +184,7 @@ export default async function decorate(block) {
   const hamburger = document.createElement('div');
   hamburger.classList.add('nav-hamburger');
   hamburger.innerHTML = `<button type="button" aria-controls="nav" aria-label="Open navigation">
-      <span class="nav-hamburger-icon"></span>
+      <span class="nav-hamburger-icon" aria-hidden="true">☰</span>
     </button>`;
   hamburger.addEventListener('click', () => toggleMenu(nav, navSections));
   nav.prepend(hamburger);

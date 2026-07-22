@@ -1,20 +1,115 @@
+/* footer — canon dark band chrome */
+
 footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+  background: var(--gradient-band-dark);
+  color: #fff;
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+footer .footer-inner {
+  max-width: calc(var(--max-width) + 2 * var(--spacing-lg));
+  margin: 0 auto;
+  padding: var(--section-padding) var(--spacing-lg) var(--spacing-xl);
+  font-size: var(--body);
 }
 
-footer .footer p {
+footer a:any-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: #fff;
+}
+
+footer .footer-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+  gap: var(--spacing-2xl);
+}
+
+footer .footer-grid p {
+  margin: 0 0 var(--spacing-sm);
+  max-width: none;
+}
+
+footer .footer-grid p strong,
+footer .footer-grid h2,
+footer .footer-grid h3 {
+  display: block;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #fff;
+  margin: 0 0 var(--spacing-md);
+}
+
+footer .footer-contact p + p strong { margin-top: var(--spacing-lg); }
+
+footer ul {
+  list-style: none;
   margin: 0;
+  padding: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
-  }
+footer li { margin-bottom: 8px; }
+
+footer .footer-brand img {
+  height: 32px;
+  width: auto;
+}
+
+footer .footer-brand .social-row {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+
+footer .footer-brand .social-row li { margin: 0; }
+
+footer .footer-brand .social-row a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(255 255 255 / 35%);
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer-brand .social-row svg {
+  width: 18px;
+  height: 18px;
+  fill: #fff;
+}
+
+footer .footer-brand p { margin-top: var(--spacing-md); }
+
+footer .footer-legal {
+  border-top: 1px solid rgb(255 255 255 / 20%);
+  margin-top: var(--spacing-2xl);
+  padding-top: var(--spacing-lg);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: rgb(255 255 255 / 78%);
+}
+
+footer .footer-legal p {
+  margin: 0;
+  max-width: none;
+}
+
+@media (width <= 960px) {
+  footer .footer-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-xl);
+}
+}
+
+@media (width <= 640px) {
+  footer .footer-grid { grid-template-columns: 1fr; }
 }

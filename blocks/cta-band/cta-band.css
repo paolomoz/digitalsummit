@@ -1,0 +1,39 @@
+/* cta-band — canon join-us band */
+
+.cta-band {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  isolation: isolate;
+}
+
+.cta-band.has-photo {
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-band.has-photo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgb(14 4 119 / 78%), rgb(0 0 0 / 60%));
+  z-index: -1;
+}
+
+.cta-band.dark { background: var(--gradient-band-dark); }
+
+.cta-band h2 {
+  color: #fff;
+  margin: 0;
+}
+
+.cta-band h2 .year { color: var(--ds-gold); }
+
+.cta-band .t-lede {
+  margin: var(--spacing-md) auto 0;
+  color: #fff;
+}
+
+.cta-band .cta-row { justify-content: center; }
+
+.cta-band a.ds-link { color: #fff; }
