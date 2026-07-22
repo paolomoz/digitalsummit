@@ -36,7 +36,6 @@
   color: var(--ds-gray);
   font-size: 0.8125rem;
   margin-left: 6px;
-  text-transform: none;
 }
 
 .agenda [role="tabpanel"][hidden] { display: none; }
