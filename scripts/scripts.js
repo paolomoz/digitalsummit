@@ -54,7 +54,8 @@ async function loadFonts() {
  * @param {Element} main The container element
  */
 function buildMapAutoBlocks(main) {
-  const mapLinks = [...main.querySelectorAll('a[href*="google.com/maps/embed"]')];
+  const mapLinks = [...main.querySelectorAll('a[href*="google.com/maps"]')]
+    .filter((a) => a.href.includes('embed'));
   mapLinks.forEach((link) => {
     if (link.closest('.map')) return;
     const newLink = link.cloneNode(true);

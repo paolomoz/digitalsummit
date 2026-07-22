@@ -1,0 +1,13 @@
+{"t":"2026-07-22T12:12:35.805Z","path":"/denver/before-you-go","step":"verify","ok":true}
+{"t":"2026-07-22T12:12:35.862Z","path":"/denver/location","step":"verify","ok":true}
+{"t":"2026-07-22T12:12:35.961Z","path":"/denver/agenda","step":"verify","ok":true}
+{"t":"2026-07-22T12:12:40.659Z","path":"/denver/sponsors","step":"verify","ok":true}
+{"t":"2026-07-22T12:12:40.961Z","path":"/footer","step":"verify","ok":true}
+{"t":"2026-07-22T12:12:42.184Z","path":"/denver/speakers","step":"verify","ok":true}
+{"t":"2026-07-22T12:12:43.225Z","path":"/index","step":"verify","ok":true}
+{"t":"2026-07-22T12:12:44.745Z","path":"/nav-denver","step":"verify","ok":true}
+{"t":"2026-07-22T12:12:44.821Z","path":"/nav-raleigh","step":"verify","ok":true}
+{"t":"2026-07-22T12:12:47.029Z","path":"/nav","step":"verify","ok":true}
+{"t":"2026-07-22T12:12:48.849Z","path":"/raleigh/pricing","step":"verify","ok":true}
+{"t":"2026-07-22T12:12:48.958Z","path":"/raleigh/home","step":"verify","ok":true}
+{"t":"2026-07-22T12:12:49.294Z","path":"/templates/corporate-utility","step":"verify","ok":true}
