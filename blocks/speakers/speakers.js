@@ -3,10 +3,54 @@
  * Authoring rows:
  *   leading single-cell rows with headings/links = section head;
  *   speaker rows: [headshot image | name link (+ optional meta p)];
- *   trailing single-cell row holding only a link = section CTA row.
+ *   trailing single-cell row holding only a link = section CTA row;
+ *   OR sheet mode: a row with a single link to speakers.json (+ optional
+ *   city cell) pulls the roster from the sheet (dynamic phase).
  * Variants: (default wall grid) | rail (horizontal scroll) | filter (search).
  */
+import { fetchSheet, readSheetConfig, sheetImg } from '../../scripts/sheet.js';
+
+function rowFromSpeaker(s) {
+  const row = document.createElement('div');
+  const imgCell = document.createElement('div');
+  if (s.image) imgCell.append(sheetImg(s.image, s.name, 140, 140));
+  const body = document.createElement('div');
+  const p = document.createElement('p');
+  if (s.href) {
+    const a = document.createElement('a');
+    a.href = s.href;
+    a.textContent = s.name;
+    p.append(a);
+  } else {
+    const strong = document.createElement('strong');
+    strong.textContent = s.name;
+    p.append(strong);
+  }
+  body.append(p);
+  const meta = [s.title, s.company].filter(Boolean).join(', ');
+  if (meta) {
+    const mp = document.createElement('p');
+    mp.textContent = meta;
+    body.append(mp);
+  }
+  row.append(imgCell, body);
+  return row;
+}
+
 export default async function decorate(block) {
+  const sheet = readSheetConfig(block);
+  if (sheet) {
+    const data = await fetchSheet(sheet.url);
+    const roster = sheet.scope ? data.filter((r) => (r.city || '').toLowerCase() === sheet.scope) : data;
+    // insert before a trailing CTA row (if any) so head/CTA rows keep meaning
+    const last = block.lastElementChild;
+    const ctaRow = last && last.children.length === 1 && last.querySelector('a')
+      && !last.querySelector('picture, img') ? last : null;
+    roster.forEach((s) => {
+      if (ctaRow) block.insertBefore(rowFromSpeaker(s), ctaRow);
+      else block.append(rowFromSpeaker(s));
+    });
+  }
   const rows = [...block.children].map((row) => [...row.children]);
   const head = document.createElement('div');
   head.className = 'section-head';

@@ -1,0 +1,112 @@
+{
+ "total": 8,
+ "limit": 8,
+ "offset": 0,
+ "data": [
+  {
+   "city": "minneapolis",
+   "name": "Digital Summit Minneapolis",
+   "shortName": "DS Minneapolis",
+   "location": "Minneapolis, MN",
+   "dates": "August 12-13, 2026",
+   "startDate": "2026-08-12",
+   "endDate": "2026-08-13",
+   "path": "/minneapolis/home",
+   "registration": "https://www.digitalsummit.com/minneapolis-2026/begin",
+   "image": "https://assets.swoogo.com/uploads/full/3450097-65a97e87f34c5.jpg",
+   "venue": "Minneapolis Convention Center"
+  },
+  {
+   "city": "philadelphia",
+   "name": "Digital Summit Philadelphia",
+   "shortName": "DS Philadelphia",
+   "location": "Philadelphia, PA",
+   "dates": "September 23-25, 2026",
+   "startDate": "2026-09-23",
+   "endDate": "2026-09-25",
+   "path": "/philadelphia/home",
+   "registration": "https://www.digitalsummit.com/philadelphia-2026/begin",
+   "image": "https://assets.swoogo.com/uploads/full/2925183-650b521258db8.jpg",
+   "venue": "The Bellevue Hotel"
+  },
+  {
+   "city": "atlanta",
+   "name": "Digital Summit Atlanta",
+   "shortName": "DS Atlanta",
+   "location": "Atlanta, GA",
+   "dates": "October 6-7, 2026",
+   "startDate": "2026-10-06",
+   "endDate": "2026-10-07",
+   "path": "/atlanta/home",
+   "registration": "https://www.digitalsummit.com/atlanta-2026/begin",
+   "image": "https://assets.swoogo.com/uploads/full/2832531-64e384c8acfdc.jpg",
+   "venue": "Atlanta Marriott Marquis"
+  },
+  {
+   "city": "raleigh",
+   "name": "Digital Summit Raleigh",
+   "shortName": "DS Raleigh",
+   "location": "Raleigh, NC",
+   "dates": "November 2-3, 2026",
+   "startDate": "2026-11-02",
+   "endDate": "2026-11-03",
+   "path": "/raleigh/home",
+   "registration": "https://www.digitalsummit.com/raleigh-2026/begin",
+   "image": "https://assets.swoogo.com/uploads/full/4766354-677fda3e70842.jpg",
+   "venue": "Raleigh Convention Center"
+  },
+  {
+   "city": "dallas",
+   "name": "Digital Summit Dallas",
+   "shortName": "DS Dallas",
+   "location": "Dallas, TX",
+   "dates": "December 8-9, 2026",
+   "startDate": "2026-12-08",
+   "endDate": "2026-12-09",
+   "path": "/dallas/home",
+   "registration": "https://www.digitalsummit.com/dallas-2026/begin",
+   "image": "https://assets.swoogo.com/uploads/full/3673425-65f1e7e965111.jpg",
+   "venue": "Hyatt Regency Dallas"
+  },
+  {
+   "city": "tampa",
+   "name": "Digital Summit Tampa",
+   "shortName": "DS Tampa",
+   "location": "Tampa, FL",
+   "dates": "March 23-24, 2027",
+   "startDate": "2027-03-23",
+   "endDate": "2027-03-24",
+   "path": "/tampa/home",
+   "registration": "https://www.digitalsummit.com/tampa-2027/begin",
+   "image": "https://assets.swoogo.com/uploads/medium/4385717-66e07e19242f6.jpg",
+   "venue": "Hilton Tampa Downtown"
+  },
+  {
+   "city": "chicago-2027",
+   "name": "Digital Summit Chicago",
+   "shortName": "DS Chicago",
+   "location": "Chicago, IL",
+   "dates": "April 19-20, 2027",
+   "startDate": "2027-04-19",
+   "endDate": "2027-04-20",
+   "path": "",
+   "registration": "https://www.digitalsummit.com/chicago-2027/begin",
+   "image": "https://assets.swoogo.com/uploads/full/4780152-6785657e10c44.jpg",
+   "venue": "Marriott Marquis Chicago"
+  },
+  {
+   "city": "denver-2027",
+   "name": "Digital Summit Denver",
+   "shortName": "DS Denver",
+   "location": "Denver, CO",
+   "dates": "July 14-15, 2027",
+   "startDate": "2027-07-14",
+   "endDate": "2027-07-15",
+   "path": "",
+   "registration": "https://www.digitalsummit.com/denver-2027/begin",
+   "image": "https://assets.swoogo.com/uploads/full/7156680-6a31b4332cf51.jpg",
+   "venue": "Colorado Convention Center Mile High Ballroom"
+  }
+ ],
+ ":type": "sheet"
+}

@@ -1,0 +1,800 @@
+{
+ "total": 198,
+ "limit": 198,
+ "offset": 0,
+ "data": [
+  {
+   "source": "/boston",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/boston/agenda",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/boston/before-you-go",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/boston/book-your-hotel",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/boston/home",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/boston/location",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/boston/pricing",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/boston/speakers",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/boston/sponsors",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/portland",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/portland/agenda",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/portland/before-you-go",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/portland/book-your-hotel",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/portland/home",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/portland/location",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/portland/pricing",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/portland/speakers",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/portland/sponsors",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/los-angeles",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/los-angeles/agenda",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/los-angeles/before-you-go",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/los-angeles/book-your-hotel",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/los-angeles/home",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/los-angeles/location",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/los-angeles/pricing",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/los-angeles/speakers",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/los-angeles/sponsors",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/las-vegas",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/las-vegas/agenda",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/las-vegas/before-you-go",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/las-vegas/book-your-hotel",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/las-vegas/location",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/las-vegas/post-event",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/las-vegas/pricing",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/las-vegas/speakers",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/las-vegas/sponsors",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/kansas-city",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/kansas-city/agenda",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/kansas-city/before-you-go",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/kansas-city/book-your-hotel",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/kansas-city/location",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/kansas-city/post-event",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/kansas-city/pricing",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/kansas-city/speakers",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/kansas-city/sponsors",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/dc",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/dc/agenda",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/dc/before-you-go",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/dc/book-your-hotel",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/dc/location",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/dc/post-event",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/dc/pricing",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/dc/speakers",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/dc/sponsors",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/orlando",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/orlando/agenda",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/orlando/before-you-go",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/orlando/book-your-hotel",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/orlando/companies-attending",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/orlando/location",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/orlando/post-event",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/orlando/pricing",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/orlando/speakers",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/orlando/sponsors",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/san-diego",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/san-diego/agenda",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/san-diego/before-you-go",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/san-diego/book-your-hotel",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/san-diego/location",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/san-diego/pricing",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/san-diego/speakers",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/san-diego/sponsors",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/deep-dive-ai/agenda",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/deep-dive-ai/pricing",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/deep-dive-ai/speakers",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/deep-dive-ai",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/atlanta-2024-archived",
+   "destination": "/atlanta/home"
+  },
+  {
+   "source": "/atlanta-2024-archived/agenda",
+   "destination": "/atlanta/agenda"
+  },
+  {
+   "source": "/atlanta-2024-archived/before-you-go",
+   "destination": "/atlanta/before-you-go"
+  },
+  {
+   "source": "/atlanta-2024-archived/book-your-hotel",
+   "destination": "/atlanta/book-your-hotel"
+  },
+  {
+   "source": "/atlanta-2024-archived/home",
+   "destination": "/atlanta/home"
+  },
+  {
+   "source": "/atlanta-2024-archived/location",
+   "destination": "/atlanta/location"
+  },
+  {
+   "source": "/atlanta-2024-archived/pricing",
+   "destination": "/atlanta/pricing"
+  },
+  {
+   "source": "/atlanta-2024-archived/speakers",
+   "destination": "/atlanta/speakers"
+  },
+  {
+   "source": "/atlanta-2024-archived/sponsors",
+   "destination": "/atlanta/sponsors"
+  },
+  {
+   "source": "/chicago-2024-archived",
+   "destination": "/chicago/home"
+  },
+  {
+   "source": "/chicago-2024-archived/agenda",
+   "destination": "/chicago/agenda"
+  },
+  {
+   "source": "/chicago-2024-archived/before-you-go",
+   "destination": "/chicago/before-you-go"
+  },
+  {
+   "source": "/chicago-2024-archived/book-your-hotel",
+   "destination": "/chicago/book-your-hotel"
+  },
+  {
+   "source": "/chicago-2024-archived/location",
+   "destination": "/chicago/location"
+  },
+  {
+   "source": "/chicago-2024-archived/post-event",
+   "destination": "/chicago/home"
+  },
+  {
+   "source": "/chicago-2024-archived/pricing",
+   "destination": "/chicago/pricing"
+  },
+  {
+   "source": "/chicago-2024-archived/speakers",
+   "destination": "/chicago/speakers"
+  },
+  {
+   "source": "/chicago-2024-archived/sponsors",
+   "destination": "/chicago/sponsors"
+  },
+  {
+   "source": "/chicago-2025-archive",
+   "destination": "/chicago/home"
+  },
+  {
+   "source": "/chicago-2025-archive/agenda",
+   "destination": "/chicago/agenda"
+  },
+  {
+   "source": "/chicago-2025-archive/before-you-go",
+   "destination": "/chicago/before-you-go"
+  },
+  {
+   "source": "/chicago-2025-archive/home",
+   "destination": "/chicago/home"
+  },
+  {
+   "source": "/chicago-2025-archive/location",
+   "destination": "/chicago/location"
+  },
+  {
+   "source": "/chicago-2025-archive/pricing",
+   "destination": "/chicago/pricing"
+  },
+  {
+   "source": "/chicago-2025-archive/speakers",
+   "destination": "/chicago/speakers"
+  },
+  {
+   "source": "/chicago-2025-archive/sponsors",
+   "destination": "/chicago/sponsors"
+  },
+  {
+   "source": "/dallas-2024-archived",
+   "destination": "/dallas/home"
+  },
+  {
+   "source": "/dallas-2024-archived/agenda",
+   "destination": "/dallas/agenda"
+  },
+  {
+   "source": "/dallas-2024-archived/before-you-go",
+   "destination": "/dallas/before-you-go"
+  },
+  {
+   "source": "/dallas-2024-archived/book-your-hotel",
+   "destination": "/dallas/book-your-hotel"
+  },
+  {
+   "source": "/dallas-2024-archived/home",
+   "destination": "/dallas/home"
+  },
+  {
+   "source": "/dallas-2024-archived/location",
+   "destination": "/dallas/location"
+  },
+  {
+   "source": "/dallas-2024-archived/pricing",
+   "destination": "/dallas/pricing"
+  },
+  {
+   "source": "/dallas-2024-archived/speakers",
+   "destination": "/dallas/speakers"
+  },
+  {
+   "source": "/dallas-2024-archived/sponsors",
+   "destination": "/dallas/sponsors"
+  },
+  {
+   "source": "/dallas-2025-archived",
+   "destination": "/dallas/home"
+  },
+  {
+   "source": "/dallas-2025-archived/agenda",
+   "destination": "/dallas/agenda"
+  },
+  {
+   "source": "/dallas-2025-archived/before-you-go",
+   "destination": "/dallas/before-you-go"
+  },
+  {
+   "source": "/dallas-2025-archived/book-your-hotel",
+   "destination": "/dallas/book-your-hotel"
+  },
+  {
+   "source": "/dallas-2025-archived/home",
+   "destination": "/dallas/home"
+  },
+  {
+   "source": "/dallas-2025-archived/location",
+   "destination": "/dallas/location"
+  },
+  {
+   "source": "/dallas-2025-archived/pricing",
+   "destination": "/dallas/pricing"
+  },
+  {
+   "source": "/dallas-2025-archived/speakers",
+   "destination": "/dallas/speakers"
+  },
+  {
+   "source": "/dallas-2025-archived/sponsors",
+   "destination": "/dallas/sponsors"
+  },
+  {
+   "source": "/denver-2024-archived",
+   "destination": "/denver/home"
+  },
+  {
+   "source": "/denver-2024-archived/agenda",
+   "destination": "/denver/agenda"
+  },
+  {
+   "source": "/denver-2024-archived/before-you-go",
+   "destination": "/denver/before-you-go"
+  },
+  {
+   "source": "/denver-2024-archived/book-your-hotel",
+   "destination": "/denver/book-your-hotel"
+  },
+  {
+   "source": "/denver-2024-archived/get-boss-approval",
+   "destination": "/denver/home"
+  },
+  {
+   "source": "/denver-2024-archived/location",
+   "destination": "/denver/location"
+  },
+  {
+   "source": "/denver-2024-archived/post-event",
+   "destination": "/denver/home"
+  },
+  {
+   "source": "/denver-2024-archived/pricing",
+   "destination": "/denver/pricing"
+  },
+  {
+   "source": "/denver-2024-archived/speakers",
+   "destination": "/denver/speakers"
+  },
+  {
+   "source": "/denver-2024-archived/sponsors",
+   "destination": "/denver/sponsors"
+  },
+  {
+   "source": "/denver-2025-archived",
+   "destination": "/denver/home"
+  },
+  {
+   "source": "/denver-2025-archived/agenda",
+   "destination": "/denver/agenda"
+  },
+  {
+   "source": "/denver-2025-archived/before-you-go",
+   "destination": "/denver/before-you-go"
+  },
+  {
+   "source": "/denver-2025-archived/home",
+   "destination": "/denver/home"
+  },
+  {
+   "source": "/denver-2025-archived/location",
+   "destination": "/denver/location"
+  },
+  {
+   "source": "/denver-2025-archived/pricing",
+   "destination": "/denver/pricing"
+  },
+  {
+   "source": "/denver-2025-archived/speakers",
+   "destination": "/denver/speakers"
+  },
+  {
+   "source": "/denver-2025-archived/sponsors",
+   "destination": "/denver/sponsors"
+  },
+  {
+   "source": "/minneapolis-2025-archived",
+   "destination": "/minneapolis/home"
+  },
+  {
+   "source": "/minneapolis-2025-archived/agenda",
+   "destination": "/minneapolis/agenda"
+  },
+  {
+   "source": "/minneapolis-2025-archived/before-you-go",
+   "destination": "/minneapolis/before-you-go"
+  },
+  {
+   "source": "/minneapolis-2025-archived/home",
+   "destination": "/minneapolis/home"
+  },
+  {
+   "source": "/minneapolis-2025-archived/location",
+   "destination": "/minneapolis/location"
+  },
+  {
+   "source": "/minneapolis-2025-archived/speakers",
+   "destination": "/minneapolis/speakers"
+  },
+  {
+   "source": "/minneapolis-2025-archived/sponsors",
+   "destination": "/minneapolis/sponsors"
+  },
+  {
+   "source": "/philadelphia-2024-archived",
+   "destination": "/philadelphia/home"
+  },
+  {
+   "source": "/philadelphia-2024-archived/agenda",
+   "destination": "/philadelphia/agenda"
+  },
+  {
+   "source": "/philadelphia-2024-archived/before-you-go",
+   "destination": "/philadelphia/before-you-go"
+  },
+  {
+   "source": "/philadelphia-2024-archived/book-your-hotel",
+   "destination": "/philadelphia/book-your-hotel"
+  },
+  {
+   "source": "/philadelphia-2024-archived/location",
+   "destination": "/philadelphia/location"
+  },
+  {
+   "source": "/philadelphia-2024-archived/pricing",
+   "destination": "/philadelphia/pricing"
+  },
+  {
+   "source": "/philadelphia-2024-archived/speakers",
+   "destination": "/philadelphia/speakers"
+  },
+  {
+   "source": "/philadelphia-2024-archived/sponsors",
+   "destination": "/philadelphia/sponsors"
+  },
+  {
+   "source": "/philadelphia-2025-archived",
+   "destination": "/philadelphia/home"
+  },
+  {
+   "source": "/philadelphia-2025-archived/agenda",
+   "destination": "/philadelphia/agenda"
+  },
+  {
+   "source": "/philadelphia-2025-archived/before-you-go",
+   "destination": "/philadelphia/before-you-go"
+  },
+  {
+   "source": "/philadelphia-2025-archived/home",
+   "destination": "/philadelphia/home"
+  },
+  {
+   "source": "/philadelphia-2025-archived/location",
+   "destination": "/philadelphia/location"
+  },
+  {
+   "source": "/philadelphia-2025-archived/pricing",
+   "destination": "/philadelphia/pricing"
+  },
+  {
+   "source": "/philadelphia-2025-archived/speakers",
+   "destination": "/philadelphia/speakers"
+  },
+  {
+   "source": "/philadelphia-2025-archived/sponsors",
+   "destination": "/philadelphia/sponsors"
+  },
+  {
+   "source": "/raleigh-2025-archived",
+   "destination": "/raleigh/home"
+  },
+  {
+   "source": "/raleigh-2025-archived/agenda",
+   "destination": "/raleigh/agenda"
+  },
+  {
+   "source": "/raleigh-2025-archived/before-you-go",
+   "destination": "/raleigh/before-you-go"
+  },
+  {
+   "source": "/raleigh-2025-archived/home",
+   "destination": "/raleigh/home"
+  },
+  {
+   "source": "/raleigh-2025-archived/location",
+   "destination": "/raleigh/location"
+  },
+  {
+   "source": "/raleigh-2025-archived/pricing",
+   "destination": "/raleigh/pricing"
+  },
+  {
+   "source": "/raleigh-2025-archived/speakers",
+   "destination": "/raleigh/speakers"
+  },
+  {
+   "source": "/raleigh-2025-archived/sponsors",
+   "destination": "/raleigh/sponsors"
+  },
+  {
+   "source": "/tampa-2025-archived",
+   "destination": "/tampa/home"
+  },
+  {
+   "source": "/tampa-2025-archived/agenda",
+   "destination": "/tampa/home"
+  },
+  {
+   "source": "/tampa-2025-archived/before-you-go",
+   "destination": "/tampa/before-you-go"
+  },
+  {
+   "source": "/tampa-2025-archived/home",
+   "destination": "/tampa/home"
+  },
+  {
+   "source": "/tampa-2025-archived/location",
+   "destination": "/tampa/location"
+  },
+  {
+   "source": "/tampa-2025-archived/pricing",
+   "destination": "/tampa/pricing"
+  },
+  {
+   "source": "/tampa-2025-archived/speakers",
+   "destination": "/tampa/home"
+  },
+  {
+   "source": "/tampa-2025-archived/sponsors",
+   "destination": "/tampa/home"
+  },
+  {
+   "source": "/tampa-2026-archived",
+   "destination": "/tampa/home"
+  },
+  {
+   "source": "/tampa-2026-archived/agenda",
+   "destination": "/tampa/home"
+  },
+  {
+   "source": "/tampa-2026-archived/before-you-go",
+   "destination": "/tampa/before-you-go"
+  },
+  {
+   "source": "/tampa-2026-archived/book-your-hotel",
+   "destination": "/tampa/home"
+  },
+  {
+   "source": "/tampa-2026-archived/home",
+   "destination": "/tampa/home"
+  },
+  {
+   "source": "/tampa-2026-archived/location",
+   "destination": "/tampa/location"
+  },
+  {
+   "source": "/tampa-2026-archived/speakers",
+   "destination": "/tampa/home"
+  },
+  {
+   "source": "/tampa-2026-archived/sponsors",
+   "destination": "/tampa/home"
+  },
+  {
+   "source": "/chicago",
+   "destination": "/chicago/home"
+  },
+  {
+   "source": "/denver",
+   "destination": "/denver/home"
+  },
+  {
+   "source": "/raleigh",
+   "destination": "/raleigh/home"
+  },
+  {
+   "source": "/dallas",
+   "destination": "/dallas/home"
+  },
+  {
+   "source": "/minneapolis",
+   "destination": "/minneapolis/home"
+  },
+  {
+   "source": "/philadelphia",
+   "destination": "/philadelphia/home"
+  },
+  {
+   "source": "/tampa",
+   "destination": "/tampa/home"
+  },
+  {
+   "source": "/atlanta",
+   "destination": "/atlanta/home"
+  },
+  {
+   "source": "/home",
+   "destination": "/"
+  },
+  {
+   "source": "/home/home",
+   "destination": "/"
+  },
+  {
+   "source": "/home/events-archived",
+   "destination": "/home/events"
+  },
+  {
+   "source": "/home/advisory-board",
+   "destination": "/home/advisoryboard"
+  },
+  {
+   "source": "/home/speaker-applicant-faq",
+   "destination": "/home/applicant-faq"
+  }
+ ],
+ ":type": "sheet"
+}

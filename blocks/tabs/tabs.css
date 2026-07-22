@@ -45,3 +45,40 @@
 .tabs [role="tabpanel"] h3 { margin: 0 0 var(--spacing-sm); }
 
 .tabs [role="tabpanel"] p { margin: 0; }
+
+/* guide variant — panels fold h4 groups into accordion items */
+.tabs.guide [role="tabpanel"] .panel-intro { margin-bottom: var(--spacing-md); }
+
+.tabs.guide details.accordion-item {
+  border: 1px solid var(--ds-hairline);
+  border-radius: var(--radius);
+  margin-bottom: var(--spacing-sm);
+  background: #fff;
+}
+
+.tabs.guide details.accordion-item summary {
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: var(--ds-indigo);
+  padding: var(--spacing-md) var(--spacing-lg);
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+}
+
+.tabs.guide details.accordion-item summary::-webkit-details-marker { display: none; }
+
+.tabs.guide details.accordion-item summary::after {
+  content: "+";
+  position: absolute;
+  right: var(--spacing-lg);
+  font-weight: 400;
+  color: var(--ds-cyan-text);
+}
+
+.tabs.guide details.accordion-item[open] summary::after { content: "\2013"; }
+
+.tabs.guide details.accordion-item > :not(summary) {
+  margin: 0 var(--spacing-lg) var(--spacing-md);
+}

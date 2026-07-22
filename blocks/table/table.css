@@ -1,0 +1,97 @@
+/* table — generic semantic table (pricing matrix, at-a-glance grid) */
+
+.table .container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.table .table-scroller {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  line-height: var(--line-height-body);
+}
+
+.table th,
+.table td {
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--ds-hairline);
+  text-align: left;
+  vertical-align: top;
+}
+
+.table thead th {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  color: var(--ds-indigo);
+  border-bottom: 2px solid var(--ds-indigo);
+}
+
+.table tbody th[scope="row"] {
+  font-weight: 400;
+}
+
+.table tbody th[scope="row"] strong {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  color: #000;
+}
+
+.table td.check,
+.table th.check {
+  text-align: center;
+}
+
+.table td.check span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: var(--radius-circle);
+  border: 2px solid var(--ds-cyan-text);
+  color: var(--ds-cyan-text);
+  font-weight: 800;
+}
+
+/* glance variant — compact agenda grid */
+.table.glance table { font-size: 0.875rem; }
+
+.table.glance th,
+.table.glance td { padding: var(--spacing-sm) var(--spacing-md); }
+
+.table.glance tbody tr:nth-child(odd) { background: rgb(14 4 119 / 4%); }
+
+/* striped variant */
+.table.striped tbody tr:nth-child(odd) { background: rgb(14 4 119 / 4%); }
+
+/* pricing matrix variant */
+.table.pricing thead th { font-size: 1.25rem; }
+
+.table.pricing td:not(:first-child),
+.table.pricing thead th:not(:first-child) { text-align: center; }
+
+.table.pricing tbody tr:first-child td,
+.table.pricing tbody tr:nth-child(2) td {
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: var(--ds-magenta-text);
+}
+
+.table.pricing .p-sm,
+.table.pricing p {
+  margin: 4px 0 0;
+  font-size: 0.875rem;
+  color: var(--ds-gray);
+}
+
+@media (width <= 640px) {
+  .table th,
+  .table td { padding: var(--spacing-sm); }
+}

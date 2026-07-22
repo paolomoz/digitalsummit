@@ -3,9 +3,59 @@
  * Authoring rows (single cell unless noted):
  *   leading rows with h2 = section head;
  *   day rows: text starting "Day N" (+ optional <em>date</em>) open a new day;
- *   session rows: [session title link | speaker links (empty = break)].
+ *   session rows: [session title link | speaker links (empty = break)
+ *     | optional time | optional category];
+ *   OR sheet mode: a row with a single link to agenda.json (+ optional city
+ *   cell) pulls the full timetable — day, time, category — from the sheet.
  */
+import { fetchSheet, readSheetConfig } from '../../scripts/sheet.js';
+
+function daysFromSheet(rows) {
+  const days = [];
+  rows.forEach((r) => {
+    let day = days.find((d) => d.meta === (r.day || ''));
+    if (!day) {
+      day = { label: `Day ${days.length + 1}`, meta: r.day || '', sessions: [] };
+      days.push(day);
+    }
+    let title;
+    if (r.href) {
+      title = document.createElement('a');
+      title.href = r.href;
+      title.textContent = r.title;
+    } else {
+      title = document.createTextNode(r.title || '');
+    }
+    const speakers = (r.speakers || '').split(';').map((s) => s.trim()).filter(Boolean)
+      .map((entry) => {
+        const [name, href] = entry.split('|').map((x) => x.trim());
+        if (href) {
+          const a = document.createElement('a');
+          a.href = href;
+          a.textContent = name;
+          return a;
+        }
+        return document.createTextNode(name);
+      });
+    day.sessions.push({
+      title,
+      speakers,
+      time: r.time || '',
+      category: r.category || '',
+      isBreak: speakers.length === 0,
+    });
+  });
+  return days;
+}
+
 export default async function decorate(block) {
+  const sheet = readSheetConfig(block);
+  let sheetDays = null;
+  if (sheet) {
+    const data = await fetchSheet(sheet.url);
+    const rows = sheet.scope ? data.filter((r) => (r.city || '').toLowerCase() === sheet.scope) : data;
+    sheetDays = daysFromSheet(rows);
+  }
   const rows = [...block.children].map((row) => [...row.children]);
   const head = document.createElement('div');
   head.className = 'section-head';
@@ -32,9 +82,12 @@ export default async function decorate(block) {
     days[days.length - 1].sessions.push({
       title: titleLink || document.createTextNode(text),
       speakers: speakerLinks,
+      time: cells[2] ? cells[2].textContent.trim() : '',
+      category: cells[3] ? cells[3].textContent.trim() : '',
       isBreak: speakerLinks.length === 0,
     });
   });
+  if (sheetDays && sheetDays.length) days.push(...sheetDays);
 
   const container = document.createElement('div');
   container.className = 'container';
@@ -91,6 +144,7 @@ export default async function decorate(block) {
       tr.dataset.kind = s.isBreak ? 'break' : 'session';
       const tdTime = document.createElement('td');
       tdTime.className = 'session-time';
+      if (s.time) tdTime.textContent = s.time;
       const td = document.createElement('td');
       const title = document.createElement('p');
       title.className = 'session-title';
@@ -107,6 +161,7 @@ export default async function decorate(block) {
       }
       const tdCat = document.createElement('td');
       tdCat.className = 'session-category';
+      if (s.category) tdCat.textContent = s.category;
       tr.append(tdTime, td, tdCat);
       tbody.append(tr);
     });

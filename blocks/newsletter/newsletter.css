@@ -47,3 +47,25 @@
   color: var(--ds-gray);
   margin-top: var(--spacing-md);
 }
+
+/* HubSpot embedded form — branded via the --hsf-* custom-property API.
+   Property names are dictated by HubSpot's forms embed (BEM-style), so the
+   kebab-case pattern rule is disabled for this one ruleset. */
+/* stylelint-disable custom-property-pattern */
+.newsletter .hs-form-frame {
+  --hsf-body__font-family: var(--body-font-family);
+  --hsf-body__font-size: 16px;
+  --hsf-field__input__border-radius: var(--radius-pill);
+  --hsf-field__label__font-weight: 800;
+  --hsf-button__border-radius: var(--radius-pill);
+  --hsf-button__background-color: var(--ds-magenta);
+  --hsf-button__text-color: #fff;
+  --hsf-button--hover__background-color: var(--ds-magenta-text);
+  --hsf-link__text-color: var(--ds-cyan-text);
+
+  max-width: 560px;
+}
+/* stylelint-enable custom-property-pattern */
+
+/* once HubSpot renders, the fallback form is removed by JS */
+.newsletter .hs-form-frame:not(:empty) + .newsletter-fallback { display: none; }

@@ -19,3 +19,13 @@
   text-underline-offset: 3px;
   font-weight: 800;
 }
+
+.promo-bar .countdown {
+  display: inline-block;
+  margin-left: var(--spacing-sm);
+  padding: 2px 12px;
+  border-radius: var(--radius-pill);
+  background: rgb(255 255 255 / 15%);
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+}

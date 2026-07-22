@@ -3,9 +3,41 @@
  * Authoring rows:
  *   leading single-cell rows with headings = section head;
  *   tab rows: [tab label | panel content].
- * Variants: pastel (band ground), carded (panel content wrapped in ds-card).
+ * Variants: pastel (band ground), carded (panel content wrapped in ds-card),
+ *   guide (h4-led groups inside a panel collapse into accordion items —
+ *   the before-you-go tabs-of-accordions pattern).
  */
 let tabsetCount = 0;
+
+/** groups h4 + following siblings into <details> accordion items */
+function foldPanelAccordions(panel) {
+  const nodes = [...panel.childNodes];
+  if (!nodes.some((n) => n.nodeType === 1 && n.tagName === 'H4')) return;
+  panel.textContent = '';
+  let details = null;
+  let intro = null;
+  nodes.forEach((n) => {
+    if (n.nodeType === 1 && n.tagName === 'H4') {
+      details = document.createElement('details');
+      details.className = 'accordion-item';
+      const summary = document.createElement('summary');
+      summary.append(...n.childNodes);
+      details.append(summary);
+      panel.append(details);
+    } else if (details) {
+      details.append(n);
+    } else {
+      if (!intro) {
+        intro = document.createElement('div');
+        intro.className = 'panel-intro';
+        panel.append(intro);
+      }
+      intro.append(n);
+    }
+  });
+  const first = panel.querySelector('details');
+  if (first) first.open = true;
+}
 
 export default async function decorate(block) {
   tabsetCount += 1;
@@ -49,6 +81,7 @@ export default async function decorate(block) {
     } else {
       panel.append(...cells[1].childNodes);
     }
+    if (block.classList.contains('guide')) foldPanelAccordions(panel);
     panels.push(panel);
   });
 

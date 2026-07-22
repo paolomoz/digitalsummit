@@ -3,8 +3,51 @@
  * Authoring rows:
  *   leading single-cell rows with h2/lede = section head;
  *   card rows: [image | body (optional eyebrow p, <h3> city, dates p, CTA ps)];
- *   trailing single-cell row holding only links = section CTA row.
+ *   trailing single-cell row holding only links = section CTA row;
+ *   OR sheet mode: a row with a single link to events.json renders the
+ *   upcoming roster (event lifecycle: past events drop off automatically,
+ *   the soonest event is flagged "Next Event").
  */
+import { fetchSheet, readSheetConfig, sheetImg } from '../../scripts/sheet.js';
+
+function rowFromEvent(ev, isNext) {
+  const row = document.createElement('div');
+  const imgCell = document.createElement('div');
+  if (ev.image) imgCell.append(sheetImg(ev.image, ev.name));
+  const body = document.createElement('div');
+  if (isNext) {
+    const eyebrow = document.createElement('p');
+    eyebrow.textContent = 'Next Event';
+    body.append(eyebrow);
+  }
+  const h = document.createElement('h3');
+  h.textContent = ev.name;
+  body.append(h);
+  const dates = document.createElement('p');
+  dates.textContent = [ev.location, ev.dates].filter(Boolean).join(' | ');
+  body.append(dates);
+  if (ev.path) {
+    const p = document.createElement('p');
+    const em = document.createElement('em');
+    const a = document.createElement('a');
+    a.href = ev.path;
+    a.textContent = `Visit ${ev.shortName || ev.name}`;
+    em.append(a);
+    p.append(em);
+    body.append(p);
+  }
+  if (ev.registration) {
+    const p = document.createElement('p');
+    const a = document.createElement('a');
+    a.href = ev.registration;
+    a.textContent = 'Register Now';
+    p.append(a);
+    body.append(p);
+  }
+  row.append(imgCell, body);
+  return row;
+}
+
 function isLinkOnly(cell) {
   const links = cell.querySelectorAll('a');
   return links.length > 0 && cell.textContent.trim()
@@ -12,6 +55,22 @@ function isLinkOnly(cell) {
 }
 
 export default async function decorate(block) {
+  const sheet = readSheetConfig(block);
+  if (sheet) {
+    const data = await fetchSheet(sheet.url);
+    const today = new Date().toISOString().slice(0, 10);
+    const upcoming = data
+      .filter((ev) => ev.name && (ev.endDate || '') >= today)
+      .sort((a, b) => (a.startDate || '').localeCompare(b.startDate || ''));
+    const last = block.lastElementChild;
+    const ctaRow = last && last.children.length === 1 && last.querySelector('a')
+      && !last.querySelector('picture, img') ? last : null;
+    upcoming.forEach((ev, i) => {
+      const row = rowFromEvent(ev, i === 0);
+      if (ctaRow) block.insertBefore(row, ctaRow);
+      else block.append(row);
+    });
+  }
   const rows = [...block.children].map((row) => [...row.children]);
   const head = document.createElement('div');
   head.className = 'section-head';

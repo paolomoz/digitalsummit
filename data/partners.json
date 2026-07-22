@@ -1,0 +1,799 @@
+{
+ "total": 113,
+ "limit": 113,
+ "offset": 0,
+ "data": [
+  {
+   "city": "chicago",
+   "tier": "Diamond",
+   "name": "IDX",
+   "logo": "https://assets.swoogo.com/uploads/medium/5323521-681d02058765f.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/992761/idx"
+  },
+  {
+   "city": "chicago",
+   "tier": "Platinum",
+   "name": "Perrill",
+   "logo": "https://assets.swoogo.com/uploads/medium/3849008-662a69896d728.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/1019323/perrill"
+  },
+  {
+   "city": "chicago",
+   "tier": "Gold",
+   "name": "Be Found Online",
+   "logo": "https://assets.swoogo.com/uploads/medium/5011045-67c571648e5d8.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/978955/be-found-online"
+  },
+  {
+   "city": "chicago",
+   "tier": "Gold",
+   "name": "Bluehost",
+   "logo": "https://assets.swoogo.com/uploads/medium/3924706-664239caa1e26.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/1014722/bluehost"
+  },
+  {
+   "city": "chicago",
+   "tier": "Gold",
+   "name": "Canto Inc.",
+   "logo": "https://assets.swoogo.com/uploads/medium/4417535-66e994e27de98.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/978957/canto-inc."
+  },
+  {
+   "city": "chicago",
+   "tier": "Gold",
+   "name": "First Position Digital",
+   "logo": "https://assets.swoogo.com/uploads/medium/5201010-67f81ec0db2e1.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/978958/first-position-digital"
+  },
+  {
+   "city": "chicago",
+   "tier": "Gold",
+   "name": "IMPRESSION",
+   "logo": "https://assets.swoogo.com/uploads/medium/6321141-697375ef4b077.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/986591/impression"
+  },
+  {
+   "city": "chicago",
+   "tier": "Gold",
+   "name": "vibes",
+   "logo": "https://assets.swoogo.com/uploads/medium/6363982-697bb28cde7ca.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/992937/vibes"
+  },
+  {
+   "city": "chicago",
+   "tier": "Tech",
+   "name": "Your Community App",
+   "logo": "https://assets.swoogo.com/uploads/medium/6633009-69ab104bdae89.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/1017620/your-community-app"
+  },
+  {
+   "city": "chicago",
+   "tier": "Silver",
+   "name": "Compu-Mail",
+   "logo": "https://assets.swoogo.com/uploads/medium/5366068-682c4c99e9186.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/978959/compu-mail"
+  },
+  {
+   "city": "chicago",
+   "tier": "Silver",
+   "name": "fjorge",
+   "logo": "https://assets.swoogo.com/uploads/medium/3088412-6536c9761b7b5.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/978960/fjorge"
+  },
+  {
+   "city": "chicago",
+   "tier": "Silver",
+   "name": "HireMango",
+   "logo": "https://assets.swoogo.com/uploads/medium/6417488-6988a48978165.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/999530/hiremango"
+  },
+  {
+   "city": "chicago",
+   "tier": "Silver",
+   "name": "PANTHEON",
+   "logo": "https://assets.swoogo.com/uploads/medium/6052404-690a627e83786.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/980719/pantheon"
+  },
+  {
+   "city": "chicago",
+   "tier": "Silver",
+   "name": "SwagChimp",
+   "logo": "https://assets.swoogo.com/uploads/medium/2924896-650b4730ae240.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/985227/swagchimp"
+  },
+  {
+   "city": "chicago",
+   "tier": "Silver",
+   "name": "Videospan",
+   "logo": "https://assets.swoogo.com/uploads/medium/5064779-67d32f24b7534.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/1014863/videospan"
+  },
+  {
+   "city": "chicago",
+   "tier": "Silver",
+   "name": "White Label Agency",
+   "logo": "https://assets.swoogo.com/uploads/medium/6388449-69823c3ae7368.png",
+   "href": "https://www.digitalsummit.com/chicago/sponsor/995314/white-label-agency"
+  },
+  {
+   "city": "denver",
+   "tier": "Diamond",
+   "name": "IDX",
+   "logo": "https://assets.swoogo.com/uploads/medium/5323521-681d02058765f.png",
+   "href": "https://www.digitalsummit.com/denver/sponsor/992760/idx"
+  },
+  {
+   "city": "denver",
+   "tier": "Platinum",
+   "name": "Kinsta",
+   "logo": "https://assets.swoogo.com/uploads/medium/5988413-68f6386b05685.png",
+   "href": "https://www.digitalsummit.com/denver/sponsor/1069327/kinsta"
+  },
+  {
+   "city": "denver",
+   "tier": "Gold",
+   "name": "Bluehost",
+   "logo": "https://assets.swoogo.com/uploads/medium/3924706-664239caa1e26.png",
+   "href": "https://www.digitalsummit.com/denver/sponsor/1014727/bluehost"
+  },
+  {
+   "city": "denver",
+   "tier": "Gold",
+   "name": "Canto, Inc",
+   "logo": "https://assets.swoogo.com/uploads/medium/4417535-66e994e27de98.png",
+   "href": "https://www.digitalsummit.com/denver/sponsor/914150/canto-inc"
+  },
+  {
+   "city": "denver",
+   "tier": "Gold",
+   "name": "V Digital Services",
+   "logo": "https://assets.swoogo.com/uploads/medium/6879966-69e28be0257a1.png",
+   "href": "https://www.digitalsummit.com/denver/sponsor/1047426/v-digital-services"
+  },
+  {
+   "city": "denver",
+   "tier": "Gold",
+   "name": "vibes",
+   "logo": "https://assets.swoogo.com/uploads/medium/6363982-697bb28cde7ca.png",
+   "href": "https://www.digitalsummit.com/denver/sponsor/992936/vibes"
+  },
+  {
+   "city": "denver",
+   "tier": "Sapphire",
+   "name": "Contentful",
+   "logo": "https://assets.swoogo.com/uploads/medium/6879818-69e287062e5a6.png",
+   "href": "https://www.digitalsummit.com/denver/sponsor/1047413/contentful"
+  },
+  {
+   "city": "denver",
+   "tier": "Tech",
+   "name": "SPIRRA",
+   "logo": "https://assets.swoogo.com/uploads/medium/7045303-6a0dfd796209d.png",
+   "href": "https://www.digitalsummit.com/denver/sponsor/1069503/spirra"
+  },
+  {
+   "city": "denver",
+   "tier": "Silver",
+   "name": "Blue Ivory Creative",
+   "logo": "https://assets.swoogo.com/uploads/medium/7089565-6a1d8070b6477.png",
+   "href": "https://www.digitalsummit.com/denver/sponsor/1075147/blue-ivory-creative"
+  },
+  {
+   "city": "denver",
+   "tier": "Silver",
+   "name": "fjorge",
+   "logo": "https://assets.swoogo.com/uploads/medium/3088412-6536c9761b7b5.png",
+   "href": "https://www.digitalsummit.com/denver/sponsor/914159/fjorge"
+  },
+  {
+   "city": "denver",
+   "tier": "Silver",
+   "name": "HireMango",
+   "logo": "https://assets.swoogo.com/uploads/medium/6417488-6988a48978165.png",
+   "href": "https://www.digitalsummit.com/denver/sponsor/999531/hiremango"
+  },
+  {
+   "city": "denver",
+   "tier": "Silver",
+   "name": "PANTHEON",
+   "logo": "https://assets.swoogo.com/uploads/medium/6052404-690a627e83786.png",
+   "href": "https://www.digitalsummit.com/denver/sponsor/980721/pantheon"
+  },
+  {
+   "city": "denver",
+   "tier": "Silver",
+   "name": "Site Impact",
+   "logo": "https://assets.swoogo.com/uploads/medium/4568320-6719027edac9d.png",
+   "href": "https://www.digitalsummit.com/denver/sponsor/1032757/site-impact"
+  },
+  {
+   "city": "denver",
+   "tier": "Silver",
+   "name": "SwagChimp",
+   "logo": "https://assets.swoogo.com/uploads/medium/2924896-650b4730ae240.png",
+   "href": "https://www.digitalsummit.com/denver/sponsor/985226/swagchimp"
+  },
+  {
+   "city": "denver",
+   "tier": "Supporting",
+   "name": "Clarity Digital Agency",
+   "logo": "https://assets.swoogo.com/uploads/medium/4448602-66f1ceecbb640.png",
+   "href": "https://www.digitalsummit.com/denver/sponsor/1033761/clarity-digital-agency"
+  },
+  {
+   "city": "raleigh",
+   "tier": "Diamond",
+   "name": "IDX",
+   "logo": "https://assets.swoogo.com/uploads/medium/5323521-681d02058765f.png",
+   "href": "https://www.digitalsummit.com/raleigh/sponsor/999543/idx"
+  },
+  {
+   "city": "raleigh",
+   "tier": "Gold",
+   "name": "Bluehost",
+   "logo": "https://assets.swoogo.com/uploads/medium/3924706-664239caa1e26.png",
+   "href": "https://www.digitalsummit.com/raleigh/sponsor/1014741/bluehost"
+  },
+  {
+   "city": "raleigh",
+   "tier": "Sapphire​​​​​​​",
+   "name": "CTM",
+   "logo": "https://assets.swoogo.com/uploads/medium/7067898-6a15fe43a076d.png",
+   "href": "https://www.digitalsummit.com/raleigh/sponsor/1071795/ctm"
+  },
+  {
+   "city": "raleigh",
+   "tier": "Tech",
+   "name": "illumin",
+   "logo": "https://assets.swoogo.com/uploads/medium/2924797-650b445323763.png",
+   "href": "https://www.digitalsummit.com/raleigh/sponsor/1021154/illumin"
+  },
+  {
+   "city": "raleigh",
+   "tier": "Silver",
+   "name": "Compu-Mail",
+   "logo": "https://assets.swoogo.com/uploads/medium/5366068-682c4c99e9186.png",
+   "href": "https://www.digitalsummit.com/raleigh/sponsor/1021161/compu-mail"
+  },
+  {
+   "city": "raleigh",
+   "tier": "Silver",
+   "name": "fjorge",
+   "logo": "https://assets.swoogo.com/uploads/medium/2786394-64cba2bc6b0e9.png",
+   "href": "https://www.digitalsummit.com/raleigh/sponsor/999542/fjorge"
+  },
+  {
+   "city": "raleigh",
+   "tier": "Silver",
+   "name": "PANTHEON",
+   "logo": "https://assets.swoogo.com/uploads/medium/6052404-690a627e83786.png",
+   "href": "https://www.digitalsummit.com/raleigh/sponsor/999544/pantheon"
+  },
+  {
+   "city": "raleigh",
+   "tier": "Silver",
+   "name": "SwagChimp",
+   "logo": "https://assets.swoogo.com/uploads/medium/2924896-650b4730ae240.png",
+   "href": "https://www.digitalsummit.com/raleigh/sponsor/999541/swagchimp"
+  },
+  {
+   "city": "dallas",
+   "tier": "Platinum",
+   "name": "Kinsta",
+   "logo": "https://assets.swoogo.com/uploads/medium/5988413-68f6386b05685.png",
+   "href": "https://www.digitalsummit.com/dallas/sponsor/1069331/kinsta"
+  },
+  {
+   "city": "dallas",
+   "tier": "Gold",
+   "name": "Bluehost",
+   "logo": "https://assets.swoogo.com/uploads/medium/3924706-664239caa1e26.png",
+   "href": "https://www.digitalsummit.com/dallas/sponsor/1014726/bluehost"
+  },
+  {
+   "city": "dallas",
+   "tier": "Silver",
+   "name": "fjorge",
+   "logo": "https://assets.swoogo.com/uploads/medium/2786394-64cba2bc6b0e9.png",
+   "href": "https://www.digitalsummit.com/dallas/sponsor/999710/fjorge"
+  },
+  {
+   "city": "dallas",
+   "tier": "Silver",
+   "name": "Site Impact",
+   "logo": "https://assets.swoogo.com/uploads/medium/4568320-6719027edac9d.png",
+   "href": "https://www.digitalsummit.com/dallas/sponsor/1097629/site-impact"
+  },
+  {
+   "city": "dallas",
+   "tier": "Silver",
+   "name": "SwagChimp",
+   "logo": "https://assets.swoogo.com/uploads/medium/2924896-650b4730ae240.png",
+   "href": "https://www.digitalsummit.com/dallas/sponsor/999709/swagchimp"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Diamond",
+   "name": "IDX",
+   "logo": "https://assets.swoogo.com/uploads/medium/5323521-681d02058765f.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/958580/idx"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Platinum",
+   "name": "adtaxi",
+   "logo": "https://assets.swoogo.com/uploads/medium/5769700-68c2cd45efc05.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/1033777/adtaxi"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Platinum",
+   "name": "The Agency at MSP",
+   "logo": "https://assets.swoogo.com/uploads/medium/6610842-69a75a83008f3.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/1015740/the-agency-at-msp"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Platinum",
+   "name": "The Minnesota Star Tribune",
+   "logo": "https://assets.swoogo.com/uploads/medium/7212912-6a45132ee38bb.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/1087025/the-minnesota-star-tribune"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Gold",
+   "name": "Bluehost",
+   "logo": "https://assets.swoogo.com/uploads/medium/3924706-664239caa1e26.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/1014731/bluehost"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Gold",
+   "name": "Pressable",
+   "logo": "https://assets.swoogo.com/uploads/medium/7278023-6a5a2c938fd62.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/1101721/pressable"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Sapphire",
+   "name": "Arima",
+   "logo": "https://assets.swoogo.com/uploads/medium/7089578-6a1d8178ca946.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/1075148/arima"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Silver",
+   "name": "ActiveCampaign",
+   "logo": "https://assets.swoogo.com/uploads/medium/7118959-6a26ad5ebffd6.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/1079276/activecampaign"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Silver",
+   "name": "Adlook",
+   "logo": "https://assets.swoogo.com/uploads/medium/7268109-6a57ddec53e47.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/1100564/adlook"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Silver",
+   "name": "fjorge",
+   "logo": "https://assets.swoogo.com/uploads/medium/2786394-64cba2bc6b0e9.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/958567/fjorge"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Silver",
+   "name": "HireMango",
+   "logo": "https://assets.swoogo.com/uploads/medium/6417488-6988a48978165.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/999532/hiremango"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Silver",
+   "name": "MOGL",
+   "logo": "https://assets.swoogo.com/uploads/medium/6262653-696561a9904aa.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/1088458/mogl"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Silver",
+   "name": "PANTHEON",
+   "logo": "https://assets.swoogo.com/uploads/medium/6052404-690a627e83786.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/980720/pantheon"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Silver",
+   "name": "Site Impact",
+   "logo": "https://assets.swoogo.com/uploads/medium/4568320-6719027edac9d.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/1097626/site-impact"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Silver",
+   "name": "Smartpress",
+   "logo": "https://assets.swoogo.com/uploads/medium/6898078-69e769db24347.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/1050247/smartpress"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Silver",
+   "name": "SwagChimp",
+   "logo": "https://assets.swoogo.com/uploads/medium/2924896-650b4730ae240.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/958566/swagchimp"
+  },
+  {
+   "city": "minneapolis",
+   "tier": "Silver",
+   "name": "University of St. Thomas Opus College of Business",
+   "logo": "https://assets.swoogo.com/uploads/medium/5565279-687a830180b30.png",
+   "href": "https://www.digitalsummit.com/minneapolis/sponsor/1066513/university-of-st.-thomas-opus-college-of-business"
+  },
+  {
+   "city": "philadelphia",
+   "tier": "Diamond",
+   "name": "IDX",
+   "logo": "https://assets.swoogo.com/uploads/medium/5323521-681d02058765f.png",
+   "href": "https://www.digitalsummit.com/philadelphia/sponsor/999459/idx"
+  },
+  {
+   "city": "philadelphia",
+   "tier": "Platinum",
+   "name": "adtaxi",
+   "logo": "https://assets.swoogo.com/uploads/medium/5769700-68c2cd45efc05.png",
+   "href": "https://www.digitalsummit.com/philadelphia/sponsor/1033779/adtaxi"
+  },
+  {
+   "city": "philadelphia",
+   "tier": "Gold",
+   "name": "Bluehost",
+   "logo": "https://assets.swoogo.com/uploads/medium/3924706-664239caa1e26.png",
+   "href": "https://www.digitalsummit.com/philadelphia/sponsor/1014732/bluehost"
+  },
+  {
+   "city": "philadelphia",
+   "tier": "Tech",
+   "name": "illumin",
+   "logo": "https://assets.swoogo.com/uploads/medium/2924797-650b445323763.png",
+   "href": "https://www.digitalsummit.com/philadelphia/sponsor/1021147/illumin"
+  },
+  {
+   "city": "philadelphia",
+   "tier": "Silver",
+   "name": "PANTHEON",
+   "logo": "https://assets.swoogo.com/uploads/medium/6052404-690a627e83786.png",
+   "href": "https://www.digitalsummit.com/philadelphia/sponsor/999460/pantheon"
+  },
+  {
+   "city": "philadelphia",
+   "tier": "Silver",
+   "name": "SwagChimp",
+   "logo": "https://assets.swoogo.com/uploads/medium/2924896-650b4730ae240.png",
+   "href": "https://www.digitalsummit.com/philadelphia/sponsor/999457/swagchimp"
+  },
+  {
+   "city": "atlanta",
+   "tier": "Diamond",
+   "name": "IDX",
+   "logo": "https://assets.swoogo.com/uploads/medium/5323521-681d02058765f.png",
+   "href": "https://www.digitalsummit.com/atlanta/sponsor/999463/idx"
+  },
+  {
+   "city": "atlanta",
+   "tier": "Platinum",
+   "name": "Kinsta",
+   "logo": "https://assets.swoogo.com/uploads/medium/5988413-68f6386b05685.png",
+   "href": "https://www.digitalsummit.com/atlanta/sponsor/1069329/kinsta"
+  },
+  {
+   "city": "atlanta",
+   "tier": "Gold",
+   "name": "Bluehost",
+   "logo": "https://assets.swoogo.com/uploads/medium/3924706-664239caa1e26.png",
+   "href": "https://www.digitalsummit.com/atlanta/sponsor/1014725/bluehost"
+  },
+  {
+   "city": "atlanta",
+   "tier": "Tech",
+   "name": "illumin",
+   "logo": "https://assets.swoogo.com/uploads/medium/2924797-650b445323763.png",
+   "href": "https://www.digitalsummit.com/atlanta/sponsor/1021148/illumin"
+  },
+  {
+   "city": "atlanta",
+   "tier": "Silver",
+   "name": "fjorge",
+   "logo": "https://assets.swoogo.com/uploads/medium/2786394-64cba2bc6b0e9.png",
+   "href": "https://www.digitalsummit.com/atlanta/sponsor/999462/fjorge"
+  },
+  {
+   "city": "atlanta",
+   "tier": "Silver",
+   "name": "PANTHEON",
+   "logo": "https://assets.swoogo.com/uploads/medium/6052404-690a627e83786.png",
+   "href": "https://www.digitalsummit.com/atlanta/sponsor/999464/pantheon"
+  },
+  {
+   "city": "atlanta",
+   "tier": "Silver",
+   "name": "Site Impact",
+   "logo": "https://assets.swoogo.com/uploads/medium/4568320-6719027edac9d.png",
+   "href": "https://www.digitalsummit.com/atlanta/sponsor/1097627/site-impact"
+  },
+  {
+   "city": "atlanta",
+   "tier": "Silver",
+   "name": "SwagChimp",
+   "logo": "https://assets.swoogo.com/uploads/medium/2924896-650b4730ae240.png",
+   "href": "https://www.digitalsummit.com/atlanta/sponsor/999461/swagchimp"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "ActiveCampaign",
+   "logo": "https://assets.swoogo.com/uploads/medium/7118959-6a26ad5ebffd6.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1079277/activecampaign"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Adlook",
+   "logo": "https://assets.swoogo.com/uploads/medium/7268109-6a57ddec53e47.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1100566/adlook"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "adtaxi",
+   "logo": "https://assets.swoogo.com/uploads/medium/5769700-68c2cd45efc05.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1033781/adtaxi"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Arima",
+   "logo": "https://assets.swoogo.com/uploads/medium/7089578-6a1d8178ca946.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1075150/arima"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Avride",
+   "logo": "https://assets.swoogo.com/uploads/medium/6582621-69a0aa89430c7.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1012808/avride"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Be Found Online",
+   "logo": "https://assets.swoogo.com/uploads/medium/5011045-67c571648e5d8.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/743053/be-found-online"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Bluehost",
+   "logo": "https://assets.swoogo.com/uploads/medium/3924706-664239caa1e26.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1014743/bluehost"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Blue Ivory Creative",
+   "logo": "https://assets.swoogo.com/uploads/medium/7089565-6a1d8070b6477.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1075151/blue-ivory-creative"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Canto, Inc",
+   "logo": "https://assets.swoogo.com/uploads/medium/4417535-66e994e27de98.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/743054/canto-inc"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Clarity Digital Agency",
+   "logo": "https://assets.swoogo.com/uploads/medium/4448602-66f1ceecbb640.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/748421/clarity-digital-agency"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Compu-Mail",
+   "logo": "https://assets.swoogo.com/uploads/medium/5366068-682c4c99e9186.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/832814/compu-mail"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Contentful",
+   "logo": "https://assets.swoogo.com/uploads/medium/6879818-69e287062e5a6.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1047418/contentful"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "CTM",
+   "logo": "https://assets.swoogo.com/uploads/medium/7067898-6a15fe43a076d.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1071797/ctm"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "First Position Digital",
+   "logo": "https://assets.swoogo.com/uploads/medium/5201010-67f81ec0db2e1.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/744105/first-position-digital"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "fjorge",
+   "logo": "https://assets.swoogo.com/uploads/medium/3088412-6536c9761b7b5.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/743111/fjorge"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "HireMango",
+   "logo": "https://assets.swoogo.com/uploads/medium/6417488-6988a48978165.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/999528/hiremango"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "IDX",
+   "logo": "https://assets.swoogo.com/uploads/medium/5323521-681d02058765f.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/992758/idx"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "illumin",
+   "logo": "https://assets.swoogo.com/uploads/medium/2924797-650b445323763.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/751340/illumin"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Impression",
+   "logo": "https://assets.swoogo.com/uploads/medium/6321141-697375ef4b077.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/986588/impression"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Kinsta",
+   "logo": "https://assets.swoogo.com/uploads/medium/5988413-68f6386b05685.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/997717/kinsta"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Minn Star Tribune",
+   "logo": "https://assets.swoogo.com/uploads/medium/5477058-685522ab2598a.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1087972/minn-star-tribune"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "MOGL",
+   "logo": "https://assets.swoogo.com/uploads/medium/6262653-696561a9904aa.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/978961/mogl"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Pantheon",
+   "logo": "https://assets.swoogo.com/uploads/medium/6052404-690a627e83786.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/939959/pantheon"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Perrill",
+   "logo": "https://assets.swoogo.com/uploads/medium/3849008-662a69896d728.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1016014/perrill"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Pressable",
+   "logo": "https://assets.swoogo.com/uploads/medium/7278023-6a5a2c938fd62.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1101747/pressable"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Site Impact",
+   "logo": "https://assets.swoogo.com/uploads/medium/4568320-6719027edac9d.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1014744/site-impact"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Smartpress",
+   "logo": "https://assets.swoogo.com/uploads/medium/6898078-69e769db24347.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1050258/smartpress"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "SPIRRA",
+   "logo": "https://assets.swoogo.com/uploads/medium/7045303-6a0dfd796209d.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1069506/spirra"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "SwagChimp",
+   "logo": "https://assets.swoogo.com/uploads/medium/2924896-650b4730ae240.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/743048/swagchimp"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Templarsoft",
+   "logo": "https://assets.swoogo.com/uploads/medium/6526030-6994c72d4aab8.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1005512/templarsoft"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "The Agency at MSP",
+   "logo": "https://assets.swoogo.com/uploads/medium/6610842-69a75a83008f3.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1015750/the-agency-at-msp"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Times Total Media",
+   "logo": "https://assets.swoogo.com/uploads/medium/6441036-698ce0519d68b.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1002580/times-total-media"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "University of St. Thomas Opus College of Business",
+   "logo": "https://assets.swoogo.com/uploads/medium/5565279-687a830180b30.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1066516/university-of-st.-thomas-opus-college-of-business"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "V Digital Services",
+   "logo": "https://assets.swoogo.com/uploads/medium/6879966-69e28be0257a1.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1047427/v-digital-services"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Vibes",
+   "logo": "https://assets.swoogo.com/uploads/medium/6363982-697bb28cde7ca.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/992932/vibes"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Videospan",
+   "logo": "https://assets.swoogo.com/uploads/medium/5064779-67d32f24b7534.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1014864/videospan"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "White Label Agency",
+   "logo": "https://assets.swoogo.com/uploads/medium/6388449-69823c3ae7368.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/995348/white-label-agency"
+  },
+  {
+   "city": "hub",
+   "tier": "",
+   "name": "Your Community App",
+   "logo": "https://assets.swoogo.com/uploads/medium/6633009-69ab104bdae89.png",
+   "href": "https://www.digitalsummit.com/home/sponsor/1017621/your-community-app"
+  }
+ ],
+ ":type": "sheet"
+}
