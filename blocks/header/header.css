@@ -187,14 +187,53 @@ header nav .nav-hamburger button {
   }
 }
 
+/* mobile collapsed bar: brand + hamburger only (source parity — the register
+   CTA lives in the expanded menu, hero, and promo bar). Prevents the fleet-wide
+   horizontal overflow at 390px. */
 @media (width < 900px) {
-  header nav .nav-brand img { height: 28px; }
-  header nav .nav-tools { margin-left: auto; }
+  header nav {
+    padding: 0 var(--spacing-md);
+    gap: var(--spacing-sm);
+  }
+
+  header nav .nav-brand {
+    min-width: 0;
+  }
+
+  header nav .nav-brand a.brand {
+    min-width: 0;
+  }
+
+  header nav .nav-brand img {
+    height: 24px;
+    flex-shrink: 0;
+  }
+
+  header nav .nav-brand .city-mark {
+    font-size: 0.75rem;
+    padding-left: var(--spacing-sm);
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  header nav .nav-hamburger {
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+
+  header nav .nav-tools { display: none; }
+
+  header nav[aria-expanded="true"] .nav-tools {
+    display: block;
+    order: 5;
+    width: 100%;
+    margin: 0 0 var(--spacing-sm);
+  }
 
   header nav .nav-tools a.button:any-link {
-  padding: 8px 16px;
-  font-size: 0.8125rem;
-}
+    padding: 8px 16px;
+    font-size: 0.8125rem;
+  }
 }
 
 @media (width >= 900px) {
